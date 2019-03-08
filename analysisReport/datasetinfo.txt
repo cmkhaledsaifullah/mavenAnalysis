@@ -1,0 +1,109 @@
+Step1:
+Initial analysis for all dataset of maven and JDK:
+
+Total number of class before filtering: 536325
+Total number of class after filtering: 406090
+Total number of methods before filtering: 4691591
+Total number of methods after filtering: 4083483
+
+
+
+Step2:
+
+Total number of classes in our Dataset: 406090
+Total number of duplicate classes having different package: 177088
+Total number of discreate classes in our dataset: 51229
+Percentage of duplicate classes in our dataset: 43.61%
+
+
+Step3:
+
+Number of discreate methods: 973303
+Method having 1 classes occure in the dataset: 583853(59.99%)
+Method having 2 classes occure in the dataset:  251735(25.86%)
+Method having 3 classes occure in the dataset:  74667(7.67%)
+Method having 4 classes occure in the dataset:  32574(3.34%)
+Method having 5 classes occure in the dataset:  8404(0.86%)
+Method having 6 classes occure in the dataset:  7962(0.81%)
+Method having 7 classes occure in the dataset:  4073(0.41%)
+Method having 8 classes occure in the dataset:  3161(0.32%)
+Method having 9 classes occure in the dataset:  1109(0.11%)
+Method having 10 classes occure in the dataset:  777(0.08%)
+Method having 10+ classes occure in the dataset:  4988(0.51%)
+
+
+
+
+Step4:
+Filtering the class dataset that has more than 5 candidate(package name):
+
+Total number of Classes in our Dataset: 51229
+Number of class that belongs to 2 number of packages: 32230 (62.91%)
+Number of class that belongs to 3 number of packages: 9088 (17.74%)
+Number of class that belongs to 4 number of packages: 3840 (7.5%)
+Number of class that belongs to 6-10 number of packages: 2950 (5.76%)
+Number of class that belongs to more tham 10 number of packages: 1481 (2.89%)
+
+
+Step5:
+Filtering the packages by number of class more than 5:
+
+Number of discreate package: 29104
+Number of packages that has 1 number of class : 18991 (65.25%)
+Number of packages that has 2 number of class : 4750 (16.32%)
+Number of packages that has 3 number of class : 2038 (7.01%)
+Number of packages that has 4 number of class : 1066 (3.66%)
+Number of packages that has 5 to 10 number of class : 1165 (4.01%)
+Number of packages that has more than 10 number of class : 561 (1.93%)
+
+Step6:
+Filtering the class dataset after step 5
+ 
+Total number of Classes in our Dataset: 4431
+Number of class that belongs to 2 number of packages: 467 (10.54%)
+Number of class that belongs to 3 number of packages: 415 (9.36%)
+Number of class that belongs to 4 number of packages: 336 (7.58%)
+Number of class that belongs to 6-10 number of packages: 998 (22.52%)
+Number of class that belongs to more tham 10 number of packages: 389 (8.78%)
+
+
+Step7:
+Writting final package and method dataset after step 6
+
+Number of discreate package: 1696
+Number of packages that has 1 number of class : 48 (2.83%)
+Number of packages that has 2 number of class : 126 (7.43%)
+Number of packages that has 3 number of class : 137 (8.08%)
+Number of packages that has 4 number of class : 191 (11.26%)
+Number of packages that has 5 to 10 number of class : 700 (41.27%)
+Number of packages that has more than 10 number of class : 323 (19.04%)
+
+Step8:
+
+Number of discreate methods: 96470
+Method having 1 classes occure in the dataset: 65497(67.89%)
+Method having 2 classes occure in the dataset:  11987(12.43%)
+Method having 3 classes occure in the dataset:  5788(5.60%)
+Method having 4 classes occure in the dataset:  4169(4.32%)
+Method having 5 classes occure in the dataset:  1839(1.91%)
+Method having 6 classes occure in the dataset:  1927(1.99%)
+Method having 7 classes occure in the dataset:  2585(2.67%)
+Method having 8 classes occure in the dataset:  531(0.55%)
+Method having 9 classes occure in the dataset:  487(0.50)
+Method having 10 classes occure in the dataset:  374(0.39%)
+Method having More than 10 classes in the dataset:  1286(1.33%)
+
+
+JDK related information:
+
+Total number of classes in our Dataset: 3911
+Total number of duplicate classes having different package: 249
+Total number of discreate classes in our dataset: 113
+Percentage of duplicate classes in our dataset: 6.366658143697264 %
+
+Number of discreate methods: 1651
+Method having 1 classes occur in the dataset: 1487
+Method having 2 classes occur in the dataset:  147
+Method having 3 classes occur in the dataset:   16
+Method having 4 classes occur in the dataset:    1
+
